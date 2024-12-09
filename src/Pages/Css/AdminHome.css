@@ -2,7 +2,7 @@
 body{
     background-color: #0E0E0E;
     font-family: "Poppins", sans-serif;
-    padding: 25px 30px;
+    padding: 25px 30px 10px;
     color: #fff4de;
 }
 
@@ -66,30 +66,251 @@ body{
 .all-users-col{
     padding-left:5rem ;
 }
-.all-users{
+.all-users, .general-aptitude{
     background-color: #1E1E1E;
     border-radius: 20px;
     
 }
-.total-users span{
+.total-users span, .general span, .verbal span,.topperformers span{
     font-size: 21px;
     font-weight: 700;
 }
 
 .user-count h2{
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 500;
 }
 
-.view-all-users-btn{
+.view-all-users-btn, .view-topics-btn{
     background-color: #fff4de;
     border-radius: 10px;
     color: #1E1E1E;
 }
-.view-all-users-btn span{
-    font-size: 17.5px;
+.view-all-users-btn span, .view-topics-btn span, .verbal-view-topics-btn span{
+    font-size: 17px;
     font-weight: 600;
 }
-.view-all-users-btn i{
+.view-all-users-btn i, .view-topics-btn i, .verbal-view-topics-btn i{
     transform: rotate(-45deg);
+}
+
+/* General - Verbal */
+.verbal-reasoning{
+    background-color: #fff4de;
+    border-radius: 20px;
+}
+
+.verbal-icon{
+    background-color: #1E1E1E;
+    color: #fff4de;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+}
+
+.verbal span{
+    color: #1E1E1E;
+}
+
+.verbal-view-topics-btn{
+    background-color: #1E1E1E;
+    border-radius: 10px;
+}
+
+
+.verbal-view-topics-btn i{
+    transform: rotate(-45deg);
+}
+
+.verbal-view-topics-btn{
+    color: #fff4de;
+}
+
+.links{
+    text-decoration: none;
+}
+
+/* Top performers */
+
+.top-performers{
+    background-color: #1E1E1E;
+    border-radius: 20px;
+}
+
+.performer-pfp{
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.performer-pfp img{
+    width: 63px;
+    height: 63px;
+}
+
+.pfp-rank{
+    position: relative;
+}
+
+.performer-rank{
+    background-color: #1E1E1E;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    position: absolute;
+    top: -3px;
+    left: -9px;
+}
+
+.performer-rank span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.perf-name{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.infos{
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Pie chart */
+
+.pie-chart{
+    background-color: #1E1E1E;
+    border-radius: 20px;
+}
+
+.squarebox{
+    width: 31px;
+    height: 31px;
+    border-radius: 8px;
+}
+
+.sq1{
+    background-color: #FF9BAA;
+}
+.sq2{
+    background-color: #D12938;
+}
+.sq3{
+    background-color: #AA0211;
+}
+.sq4{
+    background-color: #6F0000;
+}
+.sq5{
+    background-color: #3F0000;
+}
+
+.leg-name span{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.barchart line{
+    stroke: white !important;
+}
+
+.barchart tspan{
+    fill: white !important;
+}
+
+.pie path {
+    stroke: none !important; /* Remove the border */
+}
+
+/* Review and Footer */
+
+.reviews{
+    background-color: #1E1E1E;
+    border-radius: 20px;
+}
+
+.reviews-title span{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.s1 svg path,.s2 svg path,.s3 svg path,.s4 svg path{
+    fill: #FFD700;
+    stroke: #FFF4DE;
+    stroke-width: 1.2;
+}
+.s5 svg path{
+    fill: none;
+    stroke: #FFF4DE;
+    stroke-width: 1.2; 
+}
+
+.review-user-img{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.review-user-img img{
+    width: 40px;
+    height: 40px;
+}
+
+.rev-username span{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.review span{
+    font-size: 13px;
+    font-weight: 400;
+    /* text-align: justify; */
+}
+
+.viewallbtn button{
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #FFF4DE;
+    border-radius: 10px;
+}
+
+.viewallbtn i{
+    transform: rotate(-45deg);
+}
+
+/* Footer */
+
+.footer{
+    background-color: #FFF4DE;
+    border-radius: 20px;
+}
+
+.foot-icon img{
+    width: 46px;
+    height: 46px;
+}
+
+.foot-credits{
+    color: #1E1E1E;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.credits{
+    color: #1E1E1E;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.brandname{
+    font-family: "Karantina", system-ui !important;
+    font-weight: 600 !important;
+    color: #0E0E0E;
+    font-size: 17px;
 }
